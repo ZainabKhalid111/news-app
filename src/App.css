@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.card{
+  transition: transform 0.5s infinite ;
+  border: 1px solid black;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card img:hover{
+  transform: scale(1.1);
+}
+
+.container h1{
+  color: red;
+}
+
+.navbar-toggler-icon{
+background-color: white;
+}
+.navbar-toggler .fa-bars {
+  color: white;
+  background-color: rgb(234, 239, 243);
+}
